@@ -1,0 +1,34 @@
+@use "../util/" as *;
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: rem(14);
+  margin: rem(30) rem(20);
+  height: rem(45);
+  border: none;
+  border-radius: rem(25);
+
+  @include breakpoint(medium-large) {
+    margin-left: rem(5);
+    margin-right: rem(5);
+  }
+}
+
+input {
+  border: none;
+  border-radius: rem(25);
+  background: var(--button-color);
+  font-weight: 700;
+  color: var(--text-color1);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input:hover {
+  cursor: pointer;
+  background: var(--card1-bg);
+}

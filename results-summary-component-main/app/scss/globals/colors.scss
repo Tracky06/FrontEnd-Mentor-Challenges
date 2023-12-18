@@ -1,0 +1,37 @@
+:root {
+  // Result summary colors
+  --light-red: hsl(0, 100%, 67%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  // Result summary background colors
+  --reaction-bg: hsl(0, 32%, 93%);
+  --memory-bg: hsl(47, 23%, 92%);
+  --verbal-bg: hsl(164, 39%, 89%);
+  --visual-bg: hsl(240, 58%, 91%);
+
+  // background color for first card
+  --card1-bg: linear-gradient(
+      to bottom,
+      hsl(252, 100%, 67%) 1%,
+      hsl(241, 81%, 54%) 100%
+    )
+    fixed;
+
+  // circle color for first card
+  --circle-bg: linear-gradient(
+      to bottom,
+      hsla(256, 72%, 46%, 1) 30%,
+      hsla(241, 72%, 46%, 0) 100%
+    )
+    fixed;
+
+  // text colors for first card
+  --text-color1: hsl(0, 0%, 100%);
+  --text-color2: hsl(0, 0%, 96.5%);
+  --text-color3: hsl(241, 100%, 89%);
+
+  // button color
+  --button-color: hsl(224, 30%, 27%);
+}
